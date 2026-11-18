@@ -1,5 +1,7 @@
 # reword
 
+🇬🇧 English · [🇫🇷 Français](README.fr.md)
+
 Command-line tool that rewrites text with the **on-device Apple Intelligence model** (FoundationModels). Nothing leaves your Mac. It reads stdin and writes the result to stdout, so it plugs into any shortcut tool: a Hammerspoon hotkey on the Mac, or an iPhone Shortcut over SSH.
 
 ## Requirements
@@ -22,7 +24,8 @@ Make sure `~/.local/bin` is in your `PATH`. Use `PREFIX=/usr/local make install`
 ## Usage
 
 ```bash
-echo "je sui content de te voir" | reword fix
+echo "i is happy to sees you" | reword fix
+# -> I am happy to see you
 pbpaste | reword formal | pbcopy
 ```
 
